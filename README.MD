@@ -2,9 +2,11 @@
 
 ### Theme
 
-Sudo apt install gnome-shell
-Sudo apt update
-Sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only Firefox)
+```
+sudo apt install gnome-shell
+sudo apt update
+sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only Firefox)
+```
 
 Ubuntu 18 Theme: https://github.com/vinceliuice/vimix-gtk-themes
 Ubuntu 18 Icons: https://github.com/daniruiz/Flat-Remix
@@ -14,7 +16,7 @@ Zsh theme: https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes#lambda
 
 ### Programs to install
 
-- [Chrome](https://www.google.com/chrome/){:target="_blank"}
+- [Chrome](https://www.google.com/chrome/) {:target="_blank"}
 - [VSCODE](https://code.visualstudio.com/docs/setup/linux){:target="_blank"}
 	- Bracket Pair Colorizer
   	- Docker
@@ -54,4 +56,4 @@ Zsh theme: https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes#lambda
 
 ### Some stuff
 
-**Boot USB:** https://www.linuxadictos.com/17778.html
+Boot USB: https://www.linuxadictos.com/17778.html
