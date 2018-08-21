@@ -4,14 +4,14 @@
 
 - Chrome
 - VSCODE
-  - Bracket Pair Colorizer
-  - Docker
-	- EditorConfig
-	- Eslint
-	- GraphQL for vscode
-	- Prettier-Code
-	- TSLint
-	- vscode-icons
+	- Bracket Pair Colorizer
+  	- Docker
+  	- EditorConfig
+  	- Eslint
+  	- GraphQL for vscode
+  	- Prettier-Code
+  	- TSLint
+  	- vscode-icons
 - MySQL
 - PostgreSQL
 - MongoDB
@@ -29,10 +29,10 @@
 - QBittorrent
 - NPM
 	- Create-Razzle-App
-	-	Eslint
-	-	Graphql-CLI
-	-	Now (Zeit)
-	-	Prisma
-	-	React-Native-Cli
-	-	TSLint
-	-	TypeScript
+	- Eslint
+	- Graphql-CLI
+	- Now (Zeit)
+	- Prisma
+	- React-Native-Cli
+	- TSLint
+	- TypeScript
