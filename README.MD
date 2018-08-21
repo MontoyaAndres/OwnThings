@@ -1,4 +1,4 @@
-# OWN SETTINGS
+# OWNER SETTINGS
 
 ### Theme
 
