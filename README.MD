@@ -50,6 +50,7 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 	- Graphql-CLI
 	- Now (Zeit)
 	- Prisma
+		- [Possible error](https://github.com/prisma/prisma/issues/1908)
 	- [React-Native-Cli](https://github.com/MontoyaAndres/react-native-first-app)
 	- TSLint
 	- TypeScript
