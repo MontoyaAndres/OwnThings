@@ -46,6 +46,8 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 - QBittorrent (sudo apt install qbittorrent)
 - [NPM](https://github.com/nodesource/distributions)
 	- Create-Razzle-App
+	- Create-React-Native-App
+		- [Install watchman](https://github.com/MontoyaAndres/react-native-first-app#how-to-install-react-native-ubuntu-18)
 	- Eslint
 	- Graphql-CLI
 	- Now (Zeit)
