@@ -23,6 +23,9 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
   "editor.minimap.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "workbench.statusBar.feedback.visible": false,
