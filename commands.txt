@@ -60,3 +60,7 @@ https://alligator.io/react/react-router-ssr/
 ## ACCOUNTS
 
 cmaptools d@emailo.pro fcbarcelona123
+
+## CODE
+
+https://github.com/carlosazaustre/hotdog-functions
