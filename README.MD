@@ -27,7 +27,7 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
   	- TSLint
   	- vscode-icons
 - MySQL (sudo apt install mysql-server)
-- [PostgreSQL](https://askubuntu.com/questions/831262/how-to-install-pgadmin-4-in-desktop-mode-on-ubuntu)
+- [PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
 - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 - [Redis](https://redis.io/download)
 - [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository)
