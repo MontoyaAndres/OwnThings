@@ -1,4 +1,6 @@
 {
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "vscode-icons",
   "editor.formatOnSave": true,
   "files.exclude": {
     "**/.git": true,
@@ -9,6 +11,9 @@
     "**/node_modules": true
   },
   "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
     "editor.tabSize": 2
   },
   "[typescriptreact]": {
@@ -32,5 +37,6 @@
   "workbench.editor.labelFormat": "short",
   "terminal.integrated.rendererType": "dom",
   "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
-  "breadcrumbs.enabled": true
+  "breadcrumbs.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "never"
 }
