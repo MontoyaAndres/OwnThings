@@ -35,6 +35,7 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 - Git/GitHub (sudo apt install git git-core)
 - [NodeJS](https://github.com/nodesource/distributions)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/#debian-stable)
+- Python (sudo apt install python3 python3-pip)
 - [PHPMyAdmin](https://www.digitalocean.com/community/tutorials/como-instalar-y-proteger-phpmyadmin-en-ubuntu-16-04-es)
     - [Possible error](https://askubuntu.com/questions/866985/phpenmod-mcrypt-and-phpenmod-mbstring-return-errors)
     - [Possible error](https://askubuntu.com/questions/763336/cannot-enter-phpmyadmin-as-root-mysql-5-7)
@@ -45,7 +46,7 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 - K3b (From store)
 - QBittorrent (sudo apt install qbittorrent)
 - [NPM](https://github.com/nodesource/distributions)
-	- Create-Razzle-App
+	- Create-React-App
 	- Create-React-Native-App
 		- [Install watchman](https://github.com/MontoyaAndres/react-native-first-app#how-to-install-react-native-ubuntu-18)
 	- Eslint
