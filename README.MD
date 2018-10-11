@@ -30,7 +30,7 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 - [PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
 - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 - [Redis](https://redis.io/download)
-    - Possible error with c++: sudo apt install build-essential && sudo make distclean && sudo make clean
+    - Possible error with c++ (sudo apt install build-essential && sudo make distclean && sudo make clean)
 - [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository)
 - [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 - Git/GitHub (sudo apt install git git-core)
