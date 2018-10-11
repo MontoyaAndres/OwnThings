@@ -69,6 +69,7 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 - [Unicorn powershell](https://github.com/trustedsec/unicorn)
 - Wifite (sudo apt install wifite)
 - [Fluxion](https://github.com/wi-fi-analyzer/fluxion)
+- Wireshark (From store)
 
 ### Some stuff
 
