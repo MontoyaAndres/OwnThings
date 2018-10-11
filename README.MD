@@ -61,6 +61,15 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 	- TSLint
 	- TypeScript
 
+### Hacking tools
+
+- Nmap (sudo apt install nmap)
+- [Metasploit](https://www.darkoperator.com/installing-metasploit-in-ubunt/)
+- [Empire](https://github.com/EmpireProject/Empire)
+- [Unicorn powershell](https://github.com/trustedsec/unicorn)
+- Wifite (sudo apt install wifite)
+- [Fluxion](https://github.com/wi-fi-analyzer/fluxion)
+
 ### Some stuff
 
 - [Boot USB](https://www.linuxadictos.com/17778.html)
