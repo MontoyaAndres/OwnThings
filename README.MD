@@ -32,6 +32,7 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 - [Redis](https://redis.io/download)
     - Possible error with c++ (sudo apt install build-essential && sudo make distclean && sudo make clean)
 - [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository)
+    - [Possible error](https://stackoverflow.com/questions/52545945/docker-install-on-linux-mint-19-tara)
 - [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 - Git/GitHub (sudo apt install git git-core)
 - [NodeJS](https://github.com/nodesource/distributions)
