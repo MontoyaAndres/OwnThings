@@ -9,6 +9,7 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 ```
 
 - [Ubuntu 18 Theme](https://github.com/vinceliuice/vimix-gtk-themes)
+- [Linux Mint Theme](https://github.com/paullinuxthemer/McOS-Mint-Cinnamon-Edition)
 - [Ubuntu 18 Icons](https://github.com/daniruiz/Flat-Remix)
 - [Ubuntu 18 Cursor](https://www.gnome-look.org/p/1084939/) (Download it and then ./install)
 - [Zsh](https://gist.github.com/tsabat/1498393)
