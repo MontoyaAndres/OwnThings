@@ -61,6 +61,19 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 	- TSLint
 	- TypeScript
 
+### Laravel stuff
+
+How to install it?
+```
+sudo apt install php composer php-mbstring php-xml
+```
+
+Create a project
+
+```
+composer create-project --prefer-dist laravel/laravel PROJECT_NAME
+```
+
 ### Hacking tools
 
 - Nmap (sudo apt install nmap)
