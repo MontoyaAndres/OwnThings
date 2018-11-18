@@ -63,6 +63,11 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 
 ### Hacking tools
 
+- Netsparker (Paying)
+- Burpsuite (Paying)
+- Nessus (Paying)
+- [SQLMap](https://github.com/sqlmapproject/sqlmap)
+- [Owasp](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
 - Nmap (sudo apt install nmap)
 - [Metasploit](https://www.darkoperator.com/installing-metasploit-in-ubunt/)
 - [Empire](https://github.com/EmpireProject/Empire)
@@ -70,6 +75,8 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 - Wifite (sudo apt install wifite)
 - [Fluxion](https://github.com/wi-fi-analyzer/fluxion)
 - Wireshark (From store)
+- [Bettercap](https://github.com/bettercap/bettercap)
+- [BeEF](https://github.com/beefproject/beef.git)
 
 ### Some stuff
 
