@@ -10,21 +10,7 @@
     "**/.DS_Store": true,
     "**/node_modules": true
   },
-  "[javascript]": {
-    "editor.tabSize": 2
-  },
-  "[javascriptreact]": {
-    "editor.tabSize": 2
-  },
-  "[typescriptreact]": {
-    "editor.tabSize": 2
-  },
-  "[typescript]": {
-    "editor.tabSize": 2
-  },
-  "[graphql]": {
-    "editor.tabSize": 2
-  },
+  "editor.tabSize": 2,
   "[markdown]": {
     "editor.formatOnSave": false
   },
