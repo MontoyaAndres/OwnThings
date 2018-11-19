@@ -27,11 +27,6 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
   	- Prettier-Code
   	- TSLint
   	- vscode-icons
-- MySQL (sudo apt install mysql-server)
-- [PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
-- [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
-- [Redis](https://redis.io/download)
-    - Possible error with c++ (sudo apt install build-essential && sudo make distclean && sudo make clean)
 - [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository)
     - [Possible error](https://stackoverflow.com/questions/52545945/docker-install-on-linux-mint-19-tara)
 - [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
@@ -39,14 +34,12 @@ sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only 
 - [NodeJS](https://github.com/nodesource/distributions)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/#debian-stable)
 - Python (sudo apt install python3 python3-pip)
-- [PHPMyAdmin](https://www.digitalocean.com/community/tutorials/como-instalar-y-proteger-phpmyadmin-en-ubuntu-16-04-es)
-    - [Possible error](https://askubuntu.com/questions/866985/phpenmod-mcrypt-and-phpenmod-mbstring-return-errors)
-    - [Possible error](https://askubuntu.com/questions/763336/cannot-enter-phpmyadmin-as-root-mysql-5-7)
-    - Possible error on windows (sudo apt-get install libapache2-mod-php)
 - [Skype](https://www.skype.com/en/)
 - Libre Office (From store)
 - Gparted (From store)
+- Spotify (Fron store)
 - K3b (From store)
+- Tor service (sudo apt install tor)
 - QBittorrent (sudo apt install qbittorrent)
 - [NPM](https://github.com/nodesource/distributions)
 	- Create-React-App
