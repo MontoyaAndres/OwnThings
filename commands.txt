@@ -2,6 +2,8 @@
 
 internet_access -> sudo docker run -i -t --network="host" --privileged  kalilinux/kali-linux-docker bash
 
+RUN MYSQL: https://severalnines.com/blog/mysql-docker-containers-understanding-basics
+
 ## GIT
 
 git init // start project
