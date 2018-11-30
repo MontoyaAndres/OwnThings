@@ -4,6 +4,22 @@ internet_access -> sudo docker run -i -t --network="host" --privileged  kalilinu
 
 RUN MYSQL: https://severalnines.com/blog/mysql-docker-containers-understanding-basics
 
+// Create new container that runs mysql.
+
+sudo docker run --name=mysql-test --env="MYSQL_ROOT_PASSWORD=root" mysql
+
+// If is already created, you can run it with:
+
+sudo docker exect -it CONTAINER_ID bash
+
+// Stop container
+
+sudo docker stop CONTAINER_ID
+
+// Delete it
+
+sudo docker rm CONTAINER_ID
+
 ## GIT
 
 git init // start project
