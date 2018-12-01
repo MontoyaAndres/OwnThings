@@ -3,9 +3,16 @@
 ### Theme
 
 ```
+// Ubuntu 18.*
 sudo apt install gnome-shell
 sudo apt update
 sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only Firefox)
+
+// Elementary os
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:philip.scott/elementary-tweaks
+sudo apt update
+sudo apt install elementary-tweaks
 ```
 
 - [Ubuntu 18 Theme](https://github.com/vinceliuice/vimix-gtk-themes)
