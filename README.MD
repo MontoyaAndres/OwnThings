@@ -45,6 +45,7 @@ sudo apt install elementary-tweaks
 - Libre Office (From store)
 - Gparted (From store)
 - Spotify (Fron store)
+    - [Second way](https://www.spotify.com/co/download/linux/)
 - K3b (From store)
 - Tor service (sudo apt install tor)
 - QBittorrent (sudo apt install qbittorrent)
