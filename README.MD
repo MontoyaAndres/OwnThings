@@ -53,8 +53,8 @@ sudo apt install elementary-tweaks
 	- Create-React-App
 	- Create-React-Native-App
 		- [Install watchman](https://github.com/MontoyaAndres/react-native-first-app#how-to-install-react-native-ubuntu-18)
+	- @angular/cli
 	- Eslint
-	- Graphql-CLI
 	- Now (Zeit)
 	- Prisma
 		- [Possible error](https://github.com/prisma/prisma/issues/1908)
