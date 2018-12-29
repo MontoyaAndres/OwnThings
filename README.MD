@@ -13,6 +13,9 @@ sudo apt install software-properties-common
 sudo add-apt-repository ppa:philip.scott/elementary-tweaks
 sudo apt update
 sudo apt install elementary-tweaks
+
+// Windows 10 pro
+VK7JG-NPHTM-C97JM-9MPGT-3V66T
 ```
 
 - [Ubuntu 18 Theme](https://github.com/vinceliuice/vimix-gtk-themes)
