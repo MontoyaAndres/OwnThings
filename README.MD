@@ -1,5 +1,33 @@
 # OWNER SETTINGS
 
+### Automatic
+
+I've created some bash script to automated the process to install the typical tools. First, you need to have git installed `sudo apt install git` and configure your environment
+
+```
+git config --global user.email andresmontoyfcb@gmail.com
+git config --global user.name "Andrés Montoya"
+git config --global color.ui true
+```
+
+Script for themes called "ubuntu-themes".
+
+> WARNING: You need to have installed git, giving permissions with "chmod +x themes.sh" and run it with sudo
+
+```
+chmod +x themes.sh
+sudo ./themes.sh
+```
+
+Script for tools called "ubuntu-tools".
+
+> WARNING: You need to have installed git and giving permissions with "chmod +x tools.sh" and not use sudo
+
+```
+chmod +x tools
+./tools
+```
+
 ### Theme
 
 ```
@@ -14,8 +42,6 @@ sudo add-apt-repository ppa:philip.scott/elementary-tweaks
 sudo apt update
 sudo apt install elementary-tweaks
 
-// Windows 10 pro
-VK7JG-NPHTM-C97JM-9MPGT-3V66T
 ```
 
 - [Ubuntu 18 Theme](https://github.com/vinceliuice/vimix-gtk-themes)
