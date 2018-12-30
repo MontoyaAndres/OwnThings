@@ -54,6 +54,7 @@ sudo apt install docker-ce -y
 
 # Installing Docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 
 # Installing nodejs
 sudo curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
