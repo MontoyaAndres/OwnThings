@@ -2,7 +2,7 @@
 
 ### Automatic
 
-I've created some bash script to automated the process to install the typical tools. First, you need to have git installed `sudo apt install git` and configure your environment
+I've created some bash script to automazing the process to install the typical tools. First, you must have git installed `sudo apt install git` and configure your environment
 
 ```
 git config --global user.email andresmontoyfcb@gmail.com
@@ -25,7 +25,7 @@ Script for tools called "ubuntu-tools".
 
 ```
 chmod +x tools
-./tools
+./tools.sh
 ```
 
 ### Theme
