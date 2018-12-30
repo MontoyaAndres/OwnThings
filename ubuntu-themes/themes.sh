@@ -1,7 +1,7 @@
 # WARNING
 # You need to have install git
 # giving permissions with "chmod +x themes.sh"
-# And run it with sudo
+# and run it with sudo
 
 # Basic config.
 sudo apt install gnome-shell -y
