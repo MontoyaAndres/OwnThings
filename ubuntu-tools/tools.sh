@@ -32,6 +32,9 @@ code --install-extension eg2.tslint
 ## VSCode-icons
 code --install-extension robertohuertasm.vscode-icons
 
+# Adding favorite config for vscode
+cp settings.json ~/.config/Code/User/settings.json
+
 sleep 30
 
 # Installing Docker
