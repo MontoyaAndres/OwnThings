@@ -58,8 +58,11 @@ sudo apt install elementary-tweaks
   	- Docker
   	- EditorConfig
   	- Eslint
+	- Import Cost
+	- GitLens
   	- GraphQL for vscode
   	- Prettier-Code
+	- Python
   	- TSLint
   	- vscode-icons
 - [Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository)
