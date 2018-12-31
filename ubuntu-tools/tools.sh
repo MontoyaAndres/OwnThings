@@ -23,10 +23,16 @@ code --install-extension PeterJausovec.vscode-docker
 code --install-extension EditorConfig.EditorConfig
 ## Eslint
 code --install-extension dbaeumer.vscode-eslint
+## Import Cost
+code --install-extension wix.vscode-import-cost
+## GitLens
+code --install-extension eamodio.gitlens
 ## GraphQL for vscode
 code --install-extension kumar-harsh.graphql-for-vscode
 ## Prettier - Code formatter
 code --install-extension esbenp.prettier-vscode
+## Python
+code --install-extension ms-python.python
 ## TSLint
 code --install-extension eg2.tslint
 ## VSCode-icons
