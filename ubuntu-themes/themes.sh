@@ -3,10 +3,15 @@
 # giving permissions with "chmod +x themes.sh"
 # and run it with sudo
 
+# Knowing what distribution is using now.
+dist = `grep DISTRIB_ID /etc/*-release | awk -F '=' '{print $2}'`
+
 # Basic config.
-sudo apt install gnome-shell -y
-sudo apt update -y
-sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions -y
+if [ "$dist" == "Ubuntu" ]; then
+  sudo apt install gnome-shell -y
+  sudo apt update -y
+  sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions -y
+fi
 
 # Theme preferred.
 sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf -y
