@@ -54,7 +54,14 @@ sudo apt-key fingerprint 0EBFCD88
 
 sleep 10
 
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ]; then
+  # Linux mint 19 version
+  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+else
+  # Ubuntu versions
+  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+fi
+
 sudo apt update
 sudo apt install docker-ce -y
 
