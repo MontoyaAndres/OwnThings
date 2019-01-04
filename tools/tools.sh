@@ -92,6 +92,19 @@ sudo apt install tor -y
 # Installing qbittorrent
 sudo apt install qbittorrent -y
 
+# Installing gparted
+sudo apt install gparted
+
+# Installing skype
+sudo apt install skypeforlinux
+
+# Installing k3d
+sudo apt install k3d
+
+# Installing skype
+chmod +x spotify.sh
+./spotify.sh
+
 # Installing favorite npm packages.
 sudo npm config set unsafe-perm true
 sudo chown -R $USER:$(id -gn $USER) ~/.config
@@ -100,7 +113,7 @@ sudo npm i -g create-react-app eslint now prisma tslint typescript
 ## React-native
 sudo apt install openjdk-8-jdk openjdk-8-jre -y
 sudo apt update
-sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev -y
+sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev gcc g++ make -y
 
 git clone https://github.com/facebook/watchman.git
 cd watchman
@@ -113,3 +126,7 @@ sudo make install
 sleep 30
 
 sudo npm i -g create-react-native-app
+
+sudo apt clean \
+&& sudo apt autoclean \
+&& reboot
