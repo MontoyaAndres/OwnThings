@@ -36,9 +36,9 @@ chmod +x OSX-ElCap/install.sh
 sudo apt install zsh git-core
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 sleep 10
-chsh -s `which zsh` \
-&& git clone https://github.com/ergenekonyigit/lambda-gitster.git \
+git clone https://github.com/ergenekonyigit/lambda-gitster.git \
 && cp lambda-gitster/lambda-gitster.zsh-theme ~/.oh-my-zsh/custom/themes \
 && sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="lambda-gitster"/g' ~/.zshrc
 sleep 10
+chsh -s `which zsh`
 sudo shutdown -r 0
