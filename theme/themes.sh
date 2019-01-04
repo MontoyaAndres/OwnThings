@@ -16,8 +16,8 @@ if [ "$(. /etc/os-release; echo $NAME)" = "Ubuntu" ]; then
   ./vimix-gtk-themes/Install
 fi
 
-# Dependencies for Debien with cinnamon.
-if [ "$(. /etc/os-release; echo $NAME)" = "Debian GNU/Linux" ]; then
+# Dependencies for Linux mint with cinnamon.
+if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ]; then
   git clone https://github.com/paullinuxthemer/McOS-Mint-Cinnamon-Edition.git
   mv https://github.com/paullinuxthemer/McOS-Mint-Cinnamon-Edition.git ~/.themes
 fi
@@ -36,9 +36,9 @@ chmod +x OSX-ElCap/install.sh
 sudo apt install zsh git-core
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 sleep 10
-chsh -s `which zsh`
-git clone https://github.com/ergenekonyigit/lambda-gitster.git
-cp lambda-gitster/lambda-gitster.zsh-theme ~/.oh-my-zsh/custom/themes
-sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="lambda-gitster"/g' ~/.zshrc
+chsh -s `which zsh` \
+&& git clone https://github.com/ergenekonyigit/lambda-gitster.git \
+&& cp lambda-gitster/lambda-gitster.zsh-theme ~/.oh-my-zsh/custom/themes \
+&& sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="lambda-gitster"/g' ~/.zshrc
 sleep 10
 sudo shutdown -r 0
