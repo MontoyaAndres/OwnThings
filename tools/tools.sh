@@ -82,24 +82,9 @@ sudo echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/s
 sudo apt update
 sudo apt install yarn -y
 
-# Installing python3
+# Installing some awesome tools
 sudo apt update
-sudo apt install python3 python3-pip -y
-
-# Installing tor
-sudo apt install tor -y
-
-# Installing qbittorrent
-sudo apt install qbittorrent -y
-
-# Installing gparted
-sudo apt install gparted -y
-
-# Installing skype
-sudo apt install skypeforlinux -y
-
-# Installing k3d
-sudo apt install k3d -y
+sudo apt install python3 python3-pip tor qbittorrent gparted skypeforlinux k3d virtualbox -y
 
 # Installing spotify
 sudo chmod +x spotify.sh
