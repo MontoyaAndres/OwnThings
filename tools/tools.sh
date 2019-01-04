@@ -57,9 +57,12 @@ sleep 10
 if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ]; then
   # Linux mint 19 version
   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-else
+elif [ "$(. /etc/os-release; echo $NAME)" = "Ubuntu" ]; then
   # Ubuntu versions
   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+else
+  echo "The current system is not compatible!!"
+  break
 fi
 
 sudo apt update
