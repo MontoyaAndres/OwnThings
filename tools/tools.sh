@@ -84,7 +84,7 @@ sudo apt install yarn -y
 
 # Installing some awesome tools
 sudo apt update
-sudo apt install python3 python3-pip tor qbittorrent gparted skypeforlinux k3d virtualbox -y
+sudo apt install python3 python3-pip tor qbittorrent gparted skypeforlinux k3d -y
 
 # Installing spotify
 sudo chmod +x spotify.sh
