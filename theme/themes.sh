@@ -19,7 +19,7 @@ fi
 # Dependencies for Linux mint with cinnamon.
 if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ]; then
   git clone https://github.com/paullinuxthemer/McOS-Mint-Cinnamon-Edition.git
-  mv https://github.com/paullinuxthemer/McOS-Mint-Cinnamon-Edition.git ~/.themes
+  mv McOS-Mint-Cinnamon-Edition ~/.themes
 fi
 
 # Icons preferred.
