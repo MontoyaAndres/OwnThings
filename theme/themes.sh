@@ -3,21 +3,24 @@
 # giving permissions with "chmod +x themes.sh"
 # and run it with sudo
 
-# Knowing what distribution is using now.
-dist = `grep DISTRIB_ID /etc/*-release | awk -F '=' '{print $2}'`
-
-# Basic config.
-if [ "$dist" == "Ubuntu" ]; then
+# Dependencies for Ubuntu with gnome.
+if [ "$(. /etc/os-release; echo $NAME)" = "Ubuntu" ]; then
   sudo apt install gnome-shell -y
   sudo apt update -y
   sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions -y
+
+  # Theme preferred.
+  sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf -y
+  git clone https://github.com/vinceliuice/vimix-gtk-themes.git
+  chmod +x vimix-gtk-themes/Install
+  ./vimix-gtk-themes/Install
 fi
 
-# Theme preferred.
-sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf -y
-git clone https://github.com/vinceliuice/vimix-gtk-themes.git
-chmod +x vimix-gtk-themes/Install
-./vimix-gtk-themes/Install
+# Dependencies for Debien with cinnamon.
+if [ "$(. /etc/os-release; echo $NAME)" = "Debian GNU/Linux" ]; then
+  git clone https://github.com/paullinuxthemer/McOS-Mint-Cinnamon-Edition.git
+  mv https://github.com/paullinuxthemer/McOS-Mint-Cinnamon-Edition.git ~/.themes
+fi
 
 # Icons preferred.
 sudo add-apt-repository ppa:daniruiz/flat-remix
