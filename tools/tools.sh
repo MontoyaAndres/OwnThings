@@ -102,8 +102,8 @@ sudo apt install skypeforlinux
 sudo apt install k3d
 
 # Installing skype
-chmod +x spotify.sh
-./spotify.sh
+sudo chmod +x spotify.sh
+sudo ./spotify.sh
 
 # Installing favorite npm packages.
 sudo npm config set unsafe-perm true
