@@ -93,13 +93,13 @@ sudo apt install tor -y
 sudo apt install qbittorrent -y
 
 # Installing gparted
-sudo apt install gparted
+sudo apt install gparted -y
 
 # Installing skype
-sudo apt install skypeforlinux
+sudo apt install skypeforlinux -y
 
 # Installing k3d
-sudo apt install k3d
+sudo apt install k3d -y
 
 # Installing skype
 sudo chmod +x spotify.sh
