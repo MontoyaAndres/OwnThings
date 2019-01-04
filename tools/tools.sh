@@ -101,7 +101,7 @@ sudo apt install skypeforlinux -y
 # Installing k3d
 sudo apt install k3d -y
 
-# Installing skype
+# Installing spotify
 sudo chmod +x spotify.sh
 sudo ./spotify.sh
 
