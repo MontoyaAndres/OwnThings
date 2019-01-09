@@ -52,9 +52,11 @@ sudo apt install elementary-tweaks
 
 ### Hacking tools
 
-- Netsparker (Paying)
-- Burpsuite (Paying)
-- Nessus (Paying)
+- Netsparker (Pay)
+- Burpsuite (Pay)
+    - [Burpsuite(Free)](https://mega.nz/#!LsAn3Y7Q!7XIx2z-4Iy20yCnx3-5n46HTgRA5Jx7R-GJFxiVKeKg)
+    - [Java 10 to 8](https://support.portswigger.net/customer/portal/questions/17360581-burp-suite-won-t-start-at-all-with-java-1-)
+- Nessus (Pay)
 - [SQLMap](https://github.com/sqlmapproject/sqlmap)
 - [Owasp](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
 - Nmap (sudo apt install nmap)
