@@ -36,10 +36,6 @@ code --install-extension eg2.tslint
 ## VSCode-icons
 code --install-extension robertohuertasm.vscode-icons
 
-# Installing tecnificate extensions.
-
-code --install-extension kokororin.vscode-phpfmt
-
 # Adding favorite config for vscode
 cp settings.json ~/.config/Code/User/settings.json
 
