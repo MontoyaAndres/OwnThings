@@ -1,5 +1,8 @@
 {
   "phpfmt.php_bin": "/opt/lampp/bin/php",
+	"[php]": {
+		"editor.tabSize": 4
+	},
   
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "vscode-icons",
