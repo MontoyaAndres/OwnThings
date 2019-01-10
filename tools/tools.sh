@@ -23,8 +23,6 @@ code --install-extension PeterJausovec.vscode-docker
 code --install-extension EditorConfig.EditorConfig
 ## Eslint
 code --install-extension dbaeumer.vscode-eslint
-## Import Cost
-code --install-extension wix.vscode-import-cost
 ## GitLens
 code --install-extension eamodio.gitlens
 ## GraphQL for vscode
@@ -37,6 +35,10 @@ code --install-extension ms-python.python
 code --install-extension eg2.tslint
 ## VSCode-icons
 code --install-extension robertohuertasm.vscode-icons
+
+# Installing tecnificate extensions.
+
+code --install-extension kokororin.vscode-phpfmt
 
 # Adding favorite config for vscode
 cp settings.json ~/.config/Code/User/settings.json
