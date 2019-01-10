@@ -1,6 +1,4 @@
 {
-  "php.validate.executablePath": "/opt/lampp/bin/php",
-
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "vscode-icons",
   "editor.formatOnSave": true,
