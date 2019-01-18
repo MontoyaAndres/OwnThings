@@ -1,7 +1,6 @@
 # WARNING
 # You need to have install git
 # giving permissions with "chmod +x themes.sh"
-# and run it with sudo
 
 # Dependencies for Ubuntu with gnome.
 if [ "$(. /etc/os-release; echo $NAME)" = "Ubuntu" ]; then
@@ -12,14 +11,14 @@ if [ "$(. /etc/os-release; echo $NAME)" = "Ubuntu" ]; then
   # Theme preferred.
   sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf -y
   git clone https://github.com/vinceliuice/vimix-gtk-themes.git
-  chmod +x vimix-gtk-themes/Install
-  ./vimix-gtk-themes/Install
+  sudo chmod +x vimix-gtk-themes/Install
+  sudo ./vimix-gtk-themes/Install
 fi
 
 # Dependencies for Linux mint with cinnamon.
 if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ]; then
   git clone https://github.com/paullinuxthemer/McOS-Mint-Cinnamon-Edition.git
-  mv McOS-Mint-Cinnamon-Edition ~/.themes
+  sudo mv McOS-Mint-Cinnamon-Edition ~/.themes
 fi
 
 # Icons preferred.
@@ -29,8 +28,8 @@ sudo apt-get install flat-remix -y
 
 # Cursor preferred.
 tar xvjf OSX-ElCap.tar.bz2
-chmod +x OSX-ElCap/install.sh
-./OSX-ElCap/install.sh
+sudo chmod +x OSX-ElCap/install.sh
+sudo ./OSX-ElCap/install.sh
 
 # Install zsh.
 sudo apt install zsh git-core
