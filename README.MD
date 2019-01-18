@@ -10,13 +10,13 @@ git config --global user.name "Andrés Montoya"
 git config --global color.ui true
 ```
 
-> WARNING: You need to have installed git, giving permissions with "sudo chmod +x themes.sh"
+> WARNING: You need to have installed git, giving permissions with "chmod +x themes.sh"
 
 Script for themes called "ubuntu-themes".
 
 ```
 chmod +x themes.sh
-sudo ./themes.sh
+./themes.sh
 ```
 
 Script for tools called "ubuntu-tools".
