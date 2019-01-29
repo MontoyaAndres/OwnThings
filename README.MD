@@ -5,8 +5,8 @@
 I've created some bash script to automazing the process to install the typical tools. First, you must have git installed `sudo apt install git` and configure your environment
 
 ```
-git config --global user.email andresmontoyfcb@gmail.com
-git config --global user.name "Andrés Montoya"
+git config --global user.email andresmontoyafcb@gmail.com
+git config --global user.name "MontoyaAndres"
 git config --global color.ui true
 ```
 
