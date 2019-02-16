@@ -1,5 +1,5 @@
 # WARNING
-# You need to have install git
+# You need to have installed git to download it
 # giving permissions with "chmod +x themes.sh"
 
 # Dependencies for Ubuntu with gnome.
