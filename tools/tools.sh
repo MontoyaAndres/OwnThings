@@ -54,7 +54,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/i
 
 # Installing Linuxbrew tools
 
-brew install docker docker-compose nmap node yarn python pipenv
+brew install docker docker-compose nmap node yarn python pipenv mysql postgresql redis mongodb
 
 # Installing some basic tools
 sudo apt update
