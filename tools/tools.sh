@@ -1,5 +1,5 @@
 # WARNING
-# You need to have install git
+# You need to have installed git to download it.
 # giving permissions with "chmod +x tools.sh"
 
 # Installing vscode
@@ -41,48 +41,24 @@ cp settings.json ~/.config/Code/User/settings.json
 
 sleep 30
 
-# Installing Docker
+# Installing Linuxbrew
+
+sudo apt install build-essential curl file git
+
+test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
+test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
+echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+
+# Installing Linuxbrew tools
+
+brew install docker docker-compose nmap node yarn python pipenv
+
+# Installing some basic tools
 sudo apt update
-sudo apt install apt-transport-https ca-certificates software-properties-common -y
-
-sleep 10
-
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo apt-key fingerprint 0EBFCD88
-
-sleep 10
-
-if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ]; then
-  # Linux mint 19 version
-  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-elif [ "$(. /etc/os-release; echo $NAME)" = "Ubuntu" ]; then
-  # Ubuntu versions
-  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-else
-  echo "The current system is not compatible!!"
-  break
-fi
-
-sudo apt update
-sudo apt install docker-ce -y
-
-# Installing Docker-compose
-sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-
-# Installing nodejs
-sudo curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
-sudo apt install -y nodejs
-
-# Installing yarn
-sudo curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-sudo echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
-sudo apt install yarn -y
-
-# Installing some awesome tools
-sudo apt update
-sudo apt install python3 python3-pip tor qbittorrent gparted skypeforlinux k3d -y
+sudo apt install tor qbittorrent gparted skypeforlinux k3d -y
 
 # Installing spotify
 sudo chmod +x spotify.sh
