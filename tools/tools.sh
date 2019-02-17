@@ -45,10 +45,10 @@ sleep 30
 
 sudo apt install build-essential curl file git
 
-test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
-test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
-echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
+export PATH=/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/current/bin:$PATH
+export PATH="/home/.linuxbrew/bin:$PATH"
+export MANPATH="/home/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="/home/.linuxbrew/share/info:$INFOPATH"
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
