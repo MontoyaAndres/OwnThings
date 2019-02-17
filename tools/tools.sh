@@ -46,9 +46,9 @@ sleep 30
 sudo apt install build-essential curl file git
 
 export PATH=/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/current/bin:$PATH
-export PATH="/home/.linuxbrew/bin:$PATH"
-export MANPATH="/home/.linuxbrew/share/man:$MANPATH"
-export INFOPATH="/home/.linuxbrew/share/info:$INFOPATH"
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
