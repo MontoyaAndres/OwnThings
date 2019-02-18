@@ -10,14 +10,14 @@ git config --global user.name "MontoyaAndres"
 git config --global color.ui true
 ```
 
-Script for themes called "themes".
+Script for themes.
 
 ```
 chmod +x themes.sh
 ./themes.sh
 ```
 
-Script for tools called "tools".
+Script for tools.
 
 ```
 chmod +x tools
