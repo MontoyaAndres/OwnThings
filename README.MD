@@ -10,41 +10,29 @@ git config --global user.name "MontoyaAndres"
 git config --global color.ui true
 ```
 
-Script for themes called "ubuntu-themes".
+Script for themes called "themes".
 
 ```
 chmod +x themes.sh
 ./themes.sh
 ```
 
-Script for tools called "ubuntu-tools".
+Script for tools called "tools".
 
 ```
 chmod +x tools
 ./tools.sh
 ```
 
-### Themes
+### Themes not added
 
 ```
-// Ubuntu 18.*
-sudo apt install gnome-shell
-sudo apt update
-sudo apt install gnome-tweak-tool unity-tweak-tool gnome-shell-extensions (Only Firefox)
-
 // Elementary os
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:philip.scott/elementary-tweaks
 sudo apt update
 sudo apt install elementary-tweaks
 ```
-
-- [Ubuntu 18 Theme](https://github.com/vinceliuice/vimix-gtk-themes)
-- [Linux Mint Theme](https://github.com/paullinuxthemer/McOS-Mint-Cinnamon-Edition)
-- [Ubuntu 18 Icons](https://github.com/daniruiz/Flat-Remix)
-- [Ubuntu 18 Cursor](https://www.gnome-look.org/p/1084939/) (Download it and then ./install)
-- [Zsh](https://gist.github.com/tsabat/1498393)
-- [Zsh theme](https://github.com/robbyrussell/oh-my-zsh/wiki/External-themes#lambda-gitster)
 
 ### Hacking tools
 
@@ -69,4 +57,3 @@ sudo apt install elementary-tweaks
 
 - [Boot USB](https://www.linuxadictos.com/17778.html)
 - Windows 8.1 virtualbox `967N4-R7KXM-CJKJB-BHGCW-CPKT7`
-
