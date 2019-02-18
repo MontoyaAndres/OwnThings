@@ -1,41 +1,22 @@
-## DOCKER
+## Kali linux command
 
-internet_access -> sudo docker run -i -t --network="host" --privileged  kalilinux/kali-linux-docker bash
+```
+sudo docker run -i -t --network="host" --privileged  kalilinux/kali-linux-docker bash
+```
 
-RUN MYSQL: https://severalnines.com/blog/mysql-docker-containers-understanding-basics
+## MySQL command
 
-// Create new container that runs mysql.
-
+```
 sudo docker run --name=mysql-test --env="MYSQL_ROOT_PASSWORD=root" mysql
+```
 
-// If is already created, you can run it with:
-
-sudo docker exect -it CONTAINER_ID bash
-
-// Stop container
-
-sudo docker stop CONTAINER_ID
-
-// Delete it
-
-sudo docker rm CONTAINER_ID
-
-## GIT
-
-git init // start project
-git add -A // add all
-git commit -m "description" // add description
-git pull // update
-git push origin master // upload project
-git rm -r "folder" // delete folder
+## GitHub guide
 
 http://rogerdudler.github.io/git-guide/
 https://stackoverflow.com/questions/34444169/git-pull-generates-fatal-no-remote-repository-specified-error
 https://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists
 
 ## YOUTUBE
-
-graphql with react, slack clone -> https://www.youtube.com/watch?v=0MKJ7JbVnFc&list=PLN3n1USn4xlkdRlq3VZ1sT6SGW0-yajjL
 
 react native with graphql, instagram clone -> https://www.youtube.com/watch?v=AVQQF_J3Az0&list=PLzQWIQOqeUSOu74jGJMRH06gneM3wL82Z
 
@@ -54,14 +35,6 @@ MERN with graphql -> https://www.youtube.com/watch?v=HKqbBrl_fKc&list=PLcCp4mjO-
 react-native channel -> https://www.youtube.com/channel/UCEv1DI7Iftd2sWE8gcGG9rg/videos
 
 react-native and feathers -> https://www.youtube.com/watch?v=UG1pPq8gl_c&list=PLN3n1USn4xlnoL-H2VIrzaZhq6uvQppMF
-
-## PLATZI
-
-POSTGRESQL VIDEO 2 -> https://mega.nz/#F!OlQh0DLS!Zk0N4m29MzYy52WB1EcEgg!P5olHKrb
-
-MONGODB VIDEO 1 -> https://mega.nz/#F!OlQh0DLS!Zk0N4m29MzYy52WB1EcEgg!v5omTDhA
-
-MYSQL VIDEO 1 -> https://mega.nz/#F!OlQh0DLS!Zk0N4m29MzYy52WB1EcEgg!HkIATJ5Y
 
 ## READ
 
