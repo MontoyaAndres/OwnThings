@@ -26,5 +26,6 @@
   "terminal.integrated.rendererType": "dom",
   "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
   "breadcrumbs.enabled": true,
-  "typescript.updateImportsOnFileMove.enabled": "never"
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.multiCursorModifier": "ctrlCmd"
 }
