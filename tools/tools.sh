@@ -34,7 +34,7 @@ code --install-extension ms-python.python
 ## TSLint
 code --install-extension eg2.tslint
 ## VSCode-icons
-code --install-extension robertohuertasm.vscode-icons
+code --install-extension vscode-icons-team.vscode-icons
 
 # Adding favorite config for vscode
 cp settings.json ~/.config/Code/User/settings.json
