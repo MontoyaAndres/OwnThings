@@ -91,7 +91,7 @@ sudo ./spotify.sh
 # Installing favorite npm packages.
 sudo npm config set unsafe-perm true
 sudo chown -R $USER:$(id -gn $USER) ~/.config
-sudo npm i -g create-react-app eslint now prisma tslint typescript
+sudo npm i -g eslint now tslint typescript
 
 ## React-native
 sudo apt install openjdk-8-jdk openjdk-8-jre -y
@@ -108,7 +108,7 @@ sudo make install
 
 sleep 30
 
-sudo npm i -g create-react-native-app
+sudo npm install -g expo-cli
 
 sudo apt clean \
 && sudo apt autoclean \
