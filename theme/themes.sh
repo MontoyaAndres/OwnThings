@@ -27,6 +27,10 @@ if [ "$(. /etc/os-release; echo $NAME)" = "elementary OS" ]; then
   sudo add-apt-repository ppa:philip.scott/elementary-tweaks
   sudo apt update
   sudo apt install elementary-tweaks
+  
+  # Favorite theme
+  git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementary-x
+  gsettings set org.gnome.desktop.interface gtk-theme "elementary-x"
 fi
 
 # Icons preferred.
