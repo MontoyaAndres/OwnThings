@@ -52,7 +52,7 @@ sudo apt-key fingerprint 0EBFCD88
 
 sleep 10
 
-if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ] || [ "(. /etc/os-release; echo $NAME)" = "elementary OS" ] ; then
+if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ] || [ "$(. /etc/os-release; echo  $NAME)" = "elementary OS" ] ; then
   # Linux mint 19 version or elementary os version
   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 elif [ "$(. /etc/os-release; echo $NAME)" = "Ubuntu" ]; then
