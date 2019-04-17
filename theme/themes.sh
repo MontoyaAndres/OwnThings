@@ -21,6 +21,14 @@ if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ]; then
   sudo mv McOS-Mint-Cinnamon-Edition ~/.themes
 fi
 
+# Dependencies for Elementary os.
+if [ "$(. /etc/os-release; echo $NAME)" = "elementary OS" ]; then
+  sudo apt install software-properties-common
+  sudo add-apt-repository ppa:philip.scott/elementary-tweaks
+  sudo apt update
+  sudo apt install elementary-tweaks
+fi
+
 # Icons preferred.
 sudo add-apt-repository ppa:daniruiz/flat-remix
 sudo apt-get update
