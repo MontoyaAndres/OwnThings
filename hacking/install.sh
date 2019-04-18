@@ -1,6 +1,6 @@
 # You need to have Docker and git installed before anything!
 
-sudo apt install python python3 python3-pip nmap
+sudo apt install curl python python3 python3-pip nmap
 
 # Installing bettercap over Docker
 sudo docker pull bettercap/bettercap
