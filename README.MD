@@ -10,18 +10,25 @@ git config --global user.name "MontoyaAndres"
 git config --global color.ui true
 ```
 
-Script for themes.
+Go to the **theme** forder. Script for tools.
 
 ```
 chmod +x themes.sh
 ./themes.sh
 ```
 
-Script for tools.
+Go to the **tools** forder. Script for tools.
 
 ```
-chmod +x tools
+chmod +x tools.sh
 ./tools.sh
+```
+
+Go to the **hacking** forder. Script for hacking tools, you need to have `Docker` and `git` installed
+
+```
+chmod +x install.sh
+./install.sh
 ```
 
 ### Hacking tools
