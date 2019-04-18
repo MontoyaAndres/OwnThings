@@ -31,7 +31,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-### Hacking tools
+### Rest of Hacking tools
 
 - Netsparker (Pay)
 - Burpsuite (Pay)
