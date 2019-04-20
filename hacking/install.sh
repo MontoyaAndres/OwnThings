@@ -15,7 +15,7 @@ echo "Now, with 'docker run -it --privileged --network=host empireproject/empire
 
 # Installing wifirock over Docker
 sudo docker pull andresmontoyain/wifirock
-echo "Now, with 'docker run -it --rm -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro --privileged --network=host --name wifirock andresmontoyain/wifirock bash' you can start!"
+echo "Now, with 'docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro --privileged --network=host --name wifirock andresmontoyain/wifirock bash' you can start!"
 
 # Cloning unicorn
 git clone https://github.com/trustedsec/unicorn.git
