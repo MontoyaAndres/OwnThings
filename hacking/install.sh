@@ -24,5 +24,4 @@ git clone https://github.com/trustedsec/unicorn.git
 git clone https://github.com/sqlmapproject/sqlmap.git
 
 # Installing ZAProxy
-curl https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2_7_0_unix.sh && \
-  chmod +x ZAP_2_7_0_unix.sh && ./ZAP_2_7_0_unix.sh
+curl https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2_7_0_unix.sh > ZAP_2_7_0_unix.sh && chmod +x ZAP_2_7_0_unix.sh && ./ZAP_2_7_0_unix.sh
