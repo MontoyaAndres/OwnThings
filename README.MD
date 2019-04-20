@@ -38,9 +38,6 @@ chmod +x install.sh
     - [Burpsuite (Free)](https://mega.nz/#!LsAn3Y7Q!7XIx2z-4Iy20yCnx3-5n46HTgRA5Jx7R-GJFxiVKeKg)
     - [Java 10 to 8](https://support.portswigger.net/customer/portal/questions/17360581-burp-suite-won-t-start-at-all-with-java-1-)
 - Nessus (Pay)
-- [Wifite](https://github.com/derv82/wifite2)
-- [Fluxion](https://github.com/wi-fi-analyzer/fluxion)
-- Wireshark (From store)
 
 ### Some stuff
 
