@@ -41,6 +41,10 @@ cp settings.json ~/.config/Code/User/settings.json
 
 sleep 20
 
+# Installing databases
+sudo apt update
+sudo apt install mysql-server postgresql postgresql-contrib redis-server
+
 # Installing Docker
 sudo apt update
 sudo apt install apt-transport-https ca-certificates software-properties-common -y
