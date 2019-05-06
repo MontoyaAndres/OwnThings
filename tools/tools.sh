@@ -88,6 +88,11 @@ sudo apt install yarn -y
 sudo apt update
 sudo apt install nmap python3 python3-pip tor qbittorrent gparted skypeforlinux k3d -y
 
+# Installing python3 stuff
+
+sudo apt install python3-tk
+pip3 install setuptools
+
 # Installing spotify
 sudo chmod +x spotify.sh
 sudo ./spotify.sh
