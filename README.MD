@@ -39,6 +39,7 @@ chmod +x install.sh
     - [Java 10 to 8](https://support.portswigger.net/customer/portal/questions/17360581-burp-suite-won-t-start-at-all-with-java-1-)
 - Nessus (Pay)
 - [React-native-cli](https://github.com/MontoyaAndres/react-native-first-app)
+- [Shadowbroker](https://github.com/misterch0c/shadowbroker)
 
 ### Some stuff
 
