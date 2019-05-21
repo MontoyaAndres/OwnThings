@@ -19,6 +19,9 @@
   "[yaml]": {
     "editor.formatOnSave": false
   },
+  "[python]": {
+    "editor.tabSive": 4
+  },
   "editor.minimap.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "workbench.statusBar.feedback.visible": false,
@@ -27,5 +30,4 @@
   "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
   "breadcrumbs.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "editor.multiCursorModifier": "ctrlCmd"
 }
