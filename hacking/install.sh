@@ -1,5 +1,4 @@
 # You need to have Docker and git installed before anything!
-sudo apt install curl python python3 python3-pip nmap
 
 # Installing bettercap over Docker
 sudo docker pull bettercap/bettercap
@@ -17,6 +16,9 @@ echo "Now, with 'docker run -it --privileged --network=host empireproject/empire
 sudo docker pull andresmontoyain/wifirock
 echo "Now, with 'docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro --privileged --network=host --name wifirock andresmontoyain/wifirock bash' you can start!"
 
+# Installing nmap
+sudo apt install nmap
+
 # Cloning unicorn
 git clone https://github.com/trustedsec/unicorn.git
 
@@ -24,4 +26,4 @@ git clone https://github.com/trustedsec/unicorn.git
 git clone https://github.com/sqlmapproject/sqlmap.git
 
 # Installing ZAProxy
-curl https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2_7_0_unix.sh > ZAP_2_7_0_unix.sh && chmod +x ZAP_2_7_0_unix.sh && ./ZAP_2_7_0_unix.sh
+wget https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2_7_0_unix.sh && chmod +x ZAP_2_7_0_unix.sh && sudo ./ZAP_2_7_0_unix.sh
