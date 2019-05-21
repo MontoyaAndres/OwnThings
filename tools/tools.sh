@@ -68,7 +68,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 
 # Installing anaconda
-docker pull continuumio/anaconda3
+sudo docker pull continuumio/anaconda3
 
 # Installing nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
