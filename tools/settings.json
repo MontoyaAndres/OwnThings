@@ -20,7 +20,7 @@
     "editor.formatOnSave": false
   },
   "[python]": {
-    "editor.tabSive": 4
+    "editor.tabSize": 4
   },
   "editor.minimap.enabled": false,
   "explorer.confirmDragAndDrop": false,
