@@ -7,7 +7,7 @@ sudo apt install apt-transport-https curl ca-certificates software-properties-co
 
 # Python tools
 sudo apt install python3-tk
-pip3 install setuptools
+pip3 install setuptools virtualenv
 
 # Installing vscode
 sudo curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -67,9 +67,13 @@ sudo apt install docker-ce -y
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
+# Installing anaconda
+docker pull continuumio/anaconda3
+
 # Installing nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install node # Latest version
+npm i -g eslint tslint typescript npx
 
 # Installing yarn
 sudo curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
@@ -80,10 +84,6 @@ sudo apt install yarn -y
 # Installing spotify
 sudo chmod +x spotify.sh
 sudo ./spotify.sh
-
-# Installing favorite npm packages.
-sudo chown -R $USER:$(id -gn $USER) ~/.config
-sudo npm i -g eslint tslint typescript npx
 
 ## React-native modules
 sudo apt install openjdk-8-jdk openjdk-8-jre -y
