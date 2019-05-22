@@ -11,8 +11,8 @@
     "**/node_modules": true
   },
   "editor.tabSize": 2,
+  "editor.detectIndentation": true,
   "editor.insertSpaces": true,
-  "editor.detectIndentation": false,
   "editor.minimap.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "workbench.statusBar.feedback.visible": false,
