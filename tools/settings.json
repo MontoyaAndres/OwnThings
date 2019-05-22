@@ -13,6 +13,14 @@
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.labelFormat": "short",
+  "terminal.integrated.rendererType": "dom",
+  "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
+  "breadcrumbs.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
   "[markdown]": {
     "editor.formatOnSave": false
   },
@@ -22,12 +30,7 @@
   "[python]": {
     "editor.tabSize": 4
   },
-  "editor.minimap.enabled": false,
-  "explorer.confirmDragAndDrop": false,
-  "workbench.statusBar.feedback.visible": false,
-  "workbench.editor.labelFormat": "short",
-  "terminal.integrated.rendererType": "dom",
-  "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
-  "breadcrumbs.enabled": true,
-  "typescript.updateImportsOnFileMove.enabled": "never",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
