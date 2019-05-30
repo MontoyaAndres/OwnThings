@@ -73,7 +73,7 @@ sudo docker pull continuumio/anaconda3
 # Installing nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install node # Latest version
-npm i -g eslint tslint typescript npx
+npm i -g eslint tslint typescript npx expo-cli
 
 # Installing yarn
 sudo curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
