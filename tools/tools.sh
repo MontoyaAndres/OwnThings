@@ -43,7 +43,7 @@ cp settings.json ~/.config/Code/User/settings.json
 
 # Installing databases
 sudo apt update
-sudo apt install mysql-server postgresql postgresql-contrib redis-server
+sudo apt install mysql-server postgresql postgresql-contrib redis-server mongodb-server
 
 # Installing docker
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -63,23 +63,13 @@ fi
 sudo apt update
 sudo apt install docker-ce -y
 
-# Installing Docker-compose
-sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-
 # Installing anaconda
 sudo docker pull continuumio/anaconda3
 
 # Installing nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install node # Latest version
-npm i -g eslint tslint typescript npx expo-cli
-
-# Installing yarn
-sudo curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-sudo echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt update
-sudo apt install yarn -y
+npm i -g eslint tslint typescript npx expo-cli yarn
 
 # Installing spotify
 sudo chmod +x spotify.sh
