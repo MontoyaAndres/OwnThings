@@ -69,7 +69,7 @@ sudo docker pull continuumio/anaconda3
 # Installing nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install node # Latest version
-npm i -g eslint tslint typescript npx expo-cli yarn
+npm i -g eslint tslint typescript npx expo-cli yarn now
 
 # Installing spotify
 sudo chmod +x spotify.sh
