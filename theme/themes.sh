@@ -21,18 +21,6 @@ if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ]; then
   sudo mv McOS-Mint-Cinnamon-Edition ~/.themes
 fi
 
-# Dependencies for Elementary os.
-if [ "$(. /etc/os-release; echo $NAME)" = "elementary OS" ]; then
-  sudo apt install software-properties-common
-  sudo add-apt-repository ppa:philip.scott/elementary-tweaks
-  sudo apt update
-  sudo apt install elementary-tweaks
-  
-  # Favorite theme
-  git clone https://github.com/surajmandalcell/elementary-x.git ~/.themes/elementary-x
-  gsettings set org.gnome.desktop.interface gtk-theme "elementary-x"
-fi
-
 # Icons preferred.
 sudo add-apt-repository ppa:daniruiz/flat-remix
 sudo apt-get update
@@ -42,14 +30,3 @@ sudo apt-get install flat-remix -y
 tar xvjf OSX-ElCap.tar.bz2
 sudo chmod +x OSX-ElCap/install.sh
 sudo ./OSX-ElCap/install.sh
-
-# Install zsh.
-sudo apt install zsh git-core
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-sleep 10
-git clone https://github.com/ergenekonyigit/lambda-gitster.git \
-&& cp lambda-gitster/lambda-gitster.zsh-theme ~/.oh-my-zsh/custom/themes \
-&& sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="lambda-gitster"/g' ~/.zshrc
-sleep 10
-chsh -s `which zsh`
-sudo shutdown -r 0
