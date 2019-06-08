@@ -45,3 +45,4 @@ chmod +x install.sh
 
 - [Boot USB](https://www.linuxadictos.com/17778.html)
 - Windows 8.1 virtualbox `967N4-R7KXM-CJKJB-BHGCW-CPKT7`
+- [Wifi slow](https://www.adslzone.net/foro/linux.26/solucionado-problema-wifi-muy-lento-ubuntu.193481/)
