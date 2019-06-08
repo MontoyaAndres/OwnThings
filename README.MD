@@ -2,7 +2,9 @@
 
 ### Automatic
 
-I've created some bash script to automazing the process to install the typical tools. First, you must have git installed `sudo apt install git` and configure your environment
+I've created some bash script to automazing the process to install the typical tools I use.
+
+> Git needs to be installed `sudo apt install git`
 
 ```
 git config --global user.email "andresmontoyafcb@gmail.com"
@@ -46,3 +48,13 @@ chmod +x install.sh
 - [Boot USB](https://www.linuxadictos.com/17778.html)
 - Windows 8.1 virtualbox `967N4-R7KXM-CJKJB-BHGCW-CPKT7`
 - [Wifi slow](https://www.adslzone.net/foro/linux.26/solucionado-problema-wifi-muy-lento-ubuntu.193481/), [also](https://forums.linuxmint.com/viewtopic.php?t=47766#p275702)
+
+### Tips
+
+Generate SSH and add it to my system.
+
+```
+cd ~
+ssh-keygen -t rsa -b 4096 -C "andresmontoyafcb@gmail.com"
+ssh-add ~/.ssh/id_rsa
+```
