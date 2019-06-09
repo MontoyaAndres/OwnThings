@@ -85,6 +85,8 @@ sudo ./configure --enable-lenient
 sudo make
 sudo make install
 
+sleep 30
+
 sudo apt clean \
 && sudo apt autoclean \
 && reboot
