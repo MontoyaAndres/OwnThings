@@ -1,5 +1,5 @@
 # Main dependencies
-sudo apt install apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip tor qbittorrent gparted skypeforlinux k3d ssh -y
+sudo apt install apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip tor qbittorrent gparted k3d ssh -y
 
 # Python tools
 sudo apt install python3-tk
@@ -81,7 +81,7 @@ git clone https://github.com/facebook/watchman.git
 cd watchman
 git checkout v4.9.0  # the latest stable release
 sudo ./autogen.sh
-sudo ./configure
+sudo ./configure --enable-lenient
 sudo make
 sudo make install
 
