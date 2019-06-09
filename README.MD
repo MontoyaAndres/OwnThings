@@ -2,7 +2,7 @@
 
 ### Automatic
 
-I've created some bash script for automazing the process to install the typical tools I use.
+I've created a bash script for automazing the process to install the typical tools I use.
 
 > Git needs to be installed `sudo apt install git`
 
