@@ -65,7 +65,7 @@ sudo docker pull continuumio/anaconda3
 # Installing hacking tools
 sudo docker pull bettercap/bettercap
 sudo docker pull empireproject/empire
-sudo docker pull kalilinux/kali-linux-docker
+sudo docker pull metasploitframework/metasploit-framework
 
 mkdir ~/Documents/tools
 git clone https://github.com/trustedsec/unicorn.git ~/Documents/tools/unicorn
