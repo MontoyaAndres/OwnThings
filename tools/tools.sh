@@ -1,7 +1,3 @@
-# WARNING
-# You need to have install git
-# giving permissions with "chmod +x tools.sh"
-
 # Main dependencies
 sudo apt install apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip tor qbittorrent gparted skypeforlinux k3d ssh -y
 
@@ -48,23 +44,9 @@ sudo apt install mysql-server postgresql postgresql-contrib redis-server mongodb
 # Installing docker
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
-
-if [ "$(. /etc/os-release; echo $NAME)" = "Linux Mint" ] || [ "$(. /etc/os-release; echo  $NAME)" = "elementary OS" ] ; then
-  # Linux mint 19 version or elementary os version
-  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-elif [ "$(. /etc/os-release; echo $NAME)" = "Ubuntu" ]; then
-  # Ubuntu versions
-  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-else
-  echo "The current system is not compatible!!"
-  break
-fi
-
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt update
 sudo apt install docker-ce -y
-
-# Installing anaconda
-sudo docker pull continuumio/anaconda3
 
 # Installing nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
@@ -77,7 +59,20 @@ npm i -g eslint tslint typescript npx expo-cli yarn now firebase-tools
 sudo chmod +x spotify.sh
 sudo ./spotify.sh
 
-## React-native modules
+# Installing anaconda
+sudo docker pull continuumio/anaconda3
+
+# Installing hacking tools
+sudo docker pull bettercap/bettercap
+sudo docker pull metasploitframework/metasploit-framework
+sudo docker pull empireproject/empire
+sudo docker pull andresmontoyain/wifirock
+
+mkdir ~/Documents/tools
+git clone https://github.com/trustedsec/unicorn.git ~/Documents/tools/unicorn
+git clone https://github.com/sqlmapproject/sqlmap.git ~/Documents/tools/sqlmap
+
+# Installing React-native modules
 sudo apt install openjdk-8-jdk openjdk-8-jre -y
 sudo apt update
 sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev gcc g++ make -y
