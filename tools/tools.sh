@@ -1,6 +1,9 @@
 # Main dependencies
 sudo apt install apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip tor qbittorrent gparted k3d ssh -y
 
+# Installing skype (some ubuntu systems do not have it)
+sudo apt install skypeforlinux -y
+
 # Python tools
 sudo apt install python3-tk
 pip3 install setuptools virtualenv
@@ -33,6 +36,8 @@ code --install-extension ms-python.python
 code --install-extension eg2.tslint
 ## VSCode-icons
 code --install-extension vscode-icons-team.vscode-icons
+## Svelte
+code --install-extension jamesbirtles.svelte-vscode
 
 # Adding favorite config for vscode
 cp settings.json ~/.config/Code/User/settings.json
@@ -52,6 +57,7 @@ sudo apt install docker-ce -y
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+sleep 10
 nvm install node # Latest version
 npm i -g eslint tslint typescript npx expo-cli yarn now firebase-tools
 
@@ -80,7 +86,7 @@ git clone https://github.com/facebook/watchman.git
 cd watchman
 git checkout v4.9.0  # the latest stable release
 sudo ./autogen.sh
-sudo ./configure --enable-lenient
+sudo ./configure
 sudo make
 sudo make install
 
