@@ -28,7 +28,6 @@ chmod +x tools.sh
 - Nessus (Pay)
 - [React-native-cli](https://github.com/MontoyaAndres/react-native-first-app)
 - [Shadowbroker](https://github.com/misterch0c/shadowbroker)
-- [Docker 19](https://github.com/docker/for-linux/issues/533#issuecomment-494928970)
 
 ### Some stuff
 
