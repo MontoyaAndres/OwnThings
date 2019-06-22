@@ -51,16 +51,13 @@ sudo apt update
 sudo apt install docker-ce -y
 
 # Installing nvm
+apt install node-gyp
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 sleep 10
 nvm install node
 npm i -g eslint tslint typescript npx expo-cli yarn now firebase-tools
-
-# Installing spotify
-sudo chmod +x spotify.sh
-sudo ./spotify.sh
 
 # Installing hacking tools
 sudo docker pull bettercap/bettercap
