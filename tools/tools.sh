@@ -1,9 +1,6 @@
 # Main dependencies
 sudo apt install apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip tor qbittorrent gparted k3d ssh -y
 
-# Installing skype (some ubuntu systems do not have it)
-sudo apt install skypeforlinux -y
-
 # Python tools
 sudo apt install python3-tk
 pip3 install setuptools virtualenv
@@ -56,17 +53,14 @@ sudo apt install docker-ce -y
 # Installing nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 sleep 10
-nvm install node # Latest version
+nvm install node
 npm i -g eslint tslint typescript npx expo-cli yarn now firebase-tools
 
 # Installing spotify
 sudo chmod +x spotify.sh
 sudo ./spotify.sh
-
-# Installing anaconda
-sudo docker pull continuumio/anaconda3
 
 # Installing hacking tools
 sudo docker pull bettercap/bettercap
