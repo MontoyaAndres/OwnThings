@@ -44,7 +44,7 @@ cp settings.json ~/.config/Code/User/settings.json
 
 # Installing databases
 sudo apt update
-sudo apt install mysql-server postgresql postgresql-contrib redis-server mongodb-server
+sudo apt install postgresql postgresql-contrib redis-server mongodb-server
 
 # Installing docker
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
