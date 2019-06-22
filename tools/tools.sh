@@ -16,7 +16,7 @@ sudo apt install code -y
 ## Bracket Pair Colorizar
 code --install-extension CoenraadS.bracket-pair-colorizer
 ## Docker
-code --install-extension PeterJausovec.vscode-docker
+code --install-extension ms-azuretools.vscode-docker
 ## Editorconfig
 code --install-extension EditorConfig.EditorConfig
 ## Eslint
