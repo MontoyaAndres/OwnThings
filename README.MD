@@ -29,10 +29,11 @@ chmod +x tools.sh
 - [React-native-cli](https://github.com/MontoyaAndres/react-native-first-app)
 - [Shadowbroker](https://github.com/misterch0c/shadowbroker)
 
-### Some stuff
+### Resources
 
 - [Boot USB](https://www.linuxadictos.com/17778.html)
 - Windows 8.1 virtualbox `967N4-R7KXM-CJKJB-BHGCW-CPKT7`
+- [Shellcode to powershell](https://www.trustedsec.com/2013/05/native-powershell-x86-shellcode-injection-on-64-bit-platforms/)
 
 ### Tips
 
