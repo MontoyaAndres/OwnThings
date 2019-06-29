@@ -19,7 +19,12 @@ chmod +x tools.sh
 ./tools.sh
 ```
 
-Then, you need to clean the system, try using `sudo apt autoremove -y && sudo apt clean && sudo apt autoclean` and the execute `gtkorphan`.
+Then, you need to clean the system, try executing the script `clean`:
+
+```
+chmod +x clean.sh
+./clean.sh
+```
 
 ### Other tools
 
