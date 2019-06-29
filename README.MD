@@ -19,7 +19,7 @@ chmod +x tools.sh
 ./tools.sh
 ```
 
-Then, follow up this [tutorial](http://ubuntuguide.net/how-to-cleanup-cacheuseless-packages-in-ubuntu):
+Then, follow up this [tutorial](http://ubuntuguide.net/how-to-cleanup-cacheuseless-packages-in-ubuntu).
 
 ### Other tools
 
