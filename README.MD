@@ -19,12 +19,7 @@ chmod +x tools.sh
 ./tools.sh
 ```
 
-Then, you need to clean the system, try executing the script `clean`:
-
-```
-chmod +x clean.sh
-./clean.sh
-```
+Then, follow up this [tutorial](http://ubuntuguide.net/how-to-cleanup-cacheuseless-packages-in-ubuntu):
 
 ### Other tools
 
