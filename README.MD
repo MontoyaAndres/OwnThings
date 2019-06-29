@@ -19,6 +19,8 @@ chmod +x tools.sh
 ./tools.sh
 ```
 
+Then, you need to clean the system, try using `sudo apt autoremove -y && sudo apt clean && sudo apt autoclean` and the execute `gtkorphan`.
+
 ### Other tools
 
 - Netsparker (Pay)
