@@ -21,6 +21,13 @@ chmod +x tools.sh
 
 Then, follow up this [tutorial](http://ubuntuguide.net/how-to-cleanup-cacheuseless-packages-in-ubuntu).
 
+If you want to clean the RAM, you need to execute:
+
+```
+# More info: https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/
+echo 3 > /proc/sys/vm/drop_caches && swapoff -a && swapon -a && printf '\n%s\n' 'Ram-cache and Swap Cleared'
+```
+
 ### Other tools
 
 - Netsparker (Pay)
