@@ -30,7 +30,7 @@ code --install-extension esbenp.prettier-vscode
 ## Python
 code --install-extension ms-python.python
 ## TSLint
-code --install-extension eg2.tslint
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 ## VSCode-icons
 code --install-extension vscode-icons-team.vscode-icons
 ## Svelte
