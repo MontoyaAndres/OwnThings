@@ -56,7 +56,7 @@ export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 sleep 10
 nvm install 10
-npm i eslint tslint typescript npx expo-cli yarn now -g --unsafe-perm
+npm i eslint tslint typescript npx expo-cli yarn now @nestjs/cli -g --unsafe-perm
 
 # Installing hacking tools
 sudo docker pull bettercap/bettercap
