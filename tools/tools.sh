@@ -1,8 +1,5 @@
 # Main dependencies
 sudo apt install vlc apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip tor qbittorrent gparted k3d ssh -y
-
-# Python tools
-sudo apt install python3-tk
 pip3 install setuptools virtualenv
 
 # Installing vscode
@@ -58,15 +55,6 @@ sleep 10
 nvm install 10
 npm i eslint tslint typescript npx expo-cli yarn now @nestjs/cli -g --unsafe-perm
 
-# Installing hacking tools
-sudo docker pull bettercap/bettercap
-sudo docker pull empireproject/empire
-sudo docker pull metasploitframework/metasploit-framework
-
-mkdir ~/Documents/tools
-git clone https://github.com/trustedsec/unicorn.git ~/Documents/tools/unicorn
-git clone https://github.com/sqlmapproject/sqlmap.git ~/Documents/tools/sqlmap
-
 # Installing React-native modules
 sudo apt install openjdk-8-jdk openjdk-8-jre -y
 sudo apt update
@@ -82,6 +70,7 @@ sudo make install
 
 sleep 30
 
-sudo apt clean \
+sudo apt autoremove \
+&& sudo apt clean \
 && sudo apt autoclean \
 && reboot
