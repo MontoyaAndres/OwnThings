@@ -32,6 +32,8 @@ code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension vscode-icons-team.vscode-icons
 ## Svelte
 code --install-extension jamesbirtles.svelte-vscode
+## Styled-components
+code --install-extension jpoissonnier.vscode-styled-components
 
 # Adding favorite config for vscode
 cp settings.json ~/.config/Code/User/settings.json
