@@ -7,3 +7,5 @@ Interesting projects
 - [nextjs-mongodb-app](https://github.com/hoangvvo/nextjs-mongodb-app)
 
 - [with-cookie-auth](https://github.com/zeit/next.js/tree/canary/examples/with-cookie-auth)
+
+- [application-state-management-with-react](https://kentcdodds.com/blog/application-state-management-with-react)
