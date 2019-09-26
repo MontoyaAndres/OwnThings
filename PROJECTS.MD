@@ -11,3 +11,5 @@ Interesting projects
 - [application-state-management-with-react](https://kentcdodds.com/blog/application-state-management-with-react)
 
 - [nextjs-auth0-example](https://github.com/sandrinodimattia/nextjs-auth0-example)
+
+- [talenth netlify and faunadb](https://github.com/spacehelmet/talenth)
