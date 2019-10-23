@@ -1,6 +1,5 @@
 # Main dependencies
-sudo apt install vlc apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip tor qbittorrent gparted k3d ssh -y
-pip3 install setuptools virtualenv
+sudo apt install vlc apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip python3-venv tor qbittorrent gparted k3d ssh -y
 
 # Installing vscode
 sudo curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -55,7 +54,7 @@ export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 sleep 10
 nvm install 10
-npm i eslint tslint typescript npx expo-cli yarn now @nestjs/cli -g --unsafe-perm
+npm i eslint tslint typescript npx expo-cli yarn now @nestjs/cli firebase-tools -g --unsafe-perm
 
 # Installing React-native modules
 sudo apt install openjdk-8-jdk openjdk-8-jre -y
