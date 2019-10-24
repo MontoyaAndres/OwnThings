@@ -26,15 +26,6 @@ sudo docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro --pr
 
 apt update && apt install kali-linux kali-linux-web kali-linux-pwtools kali-linux-wireless kali-linux-top10
 ```
-
-## Anaconda
-
-```shell
-sudo docker pull continuumio/anaconda3
-
-sudo docker run -i -t -p 8888:8888 continuumio/anaconda3 /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"
-```
-
 # Errors
 
 ## Wifite dependencies
