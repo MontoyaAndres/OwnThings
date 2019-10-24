@@ -1,3 +1,32 @@
+# Docker stuff
+
+## Bettercap
+
+```shell
+sudo docker pull bettercap/bettercap
+
+sudo docker run -it --privileged --net=host bettercap/bettercap -h
+```
+
+## Empire
+
+```shell
+sudo docker pull empireproject/empire
+
+sudo docker run -it --privileged --net=host empireproject/empire bash
+```
+## Kali Linux
+
+```shell
+sudo docker pull kalilinux/kali-linux-docker
+
+sudo docker run -it -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:ro --privileged --net=host --name kali-linux kalilinux/kali-linux-docker bash
+
+# Then, run this command:
+
+apt update && apt install kali-linux kali-linux-web kali-linux-pwtools kali-linux-wireless kali-linux-top10
+```
+
 # Errors
 
 ## Wifite dependencies
