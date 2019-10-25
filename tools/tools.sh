@@ -2,9 +2,9 @@
 sudo apt install vlc apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip python3-venv tor qbittorrent gparted k3d ssh -y
 
 # Installing vscode
-sudo curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 sudo apt update
 sudo apt install code -y
 
@@ -44,6 +44,7 @@ sudo apt install postgresql postgresql-contrib redis-server mongodb-server
 # Installing docker
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
+# Linux Mint 19.2 error: https://github.com/typora/typora-issues/issues/2065#issuecomment-526669791
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 sudo apt update
 sudo apt install docker-ce -y
