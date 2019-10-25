@@ -53,7 +53,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 sleep 10
-nvm install 10
+nvm install 12
 npm i eslint tslint typescript npx expo-cli yarn now @nestjs/cli firebase-tools -g --unsafe-perm
 
 # Installing React-native modules
