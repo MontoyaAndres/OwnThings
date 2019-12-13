@@ -55,24 +55,4 @@ export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 sleep 10
 nvm install 12
-npm i eslint tslint typescript npx expo-cli yarn now @nestjs/cli firebase-tools -g --unsafe-perm
-
-# Installing React-native modules
-sudo apt install openjdk-8-jdk openjdk-8-jre -y
-sudo apt update
-sudo apt install libtool m4 automake pkg-config libssl-dev adb python python3 python-dev python3-dev gcc g++ make -y
-
-git clone https://github.com/facebook/watchman.git
-cd watchman
-git checkout v4.9.0  # the latest stable release
-sudo ./autogen.sh
-sudo ./configure
-sudo make
-sudo make install
-
-sleep 30
-
-sudo apt autoremove \
-&& sudo apt clean \
-&& sudo apt autoclean \
-&& reboot
+npm i eslint tslint typescript npx yarn now -g --unsafe-perm
