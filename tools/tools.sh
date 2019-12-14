@@ -1,5 +1,5 @@
 # Main dependencies
-sudo apt install vlc apt-transport-https curl ca-certificates software-properties-common build-essential libssl-dev nmap python3 python3-pip python3-venv tor qbittorrent gparted k3d ssh -y
+sudo apt install vlc apt-transport-https curl ca-certificates software-properties-common gnupg2 build-essential libssl-dev nmap python3 python3-pip python3-venv tor qbittorrent gparted k3d ssh -y
 
 # Installing vscode
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -41,13 +41,18 @@ cp settings.json ~/.config/Code/User/settings.json
 sudo apt update
 sudo apt install postgresql postgresql-contrib redis-server mongodb-server
 
-# Installing docker
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+# Installing docker for deepin os
+sudo curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
+
 # Linux Mint 19.2 error: https://github.com/typora/typora-issues/issues/2065#issuecomment-526669791
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+# sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian bionic stable"
+
+# Deepin os:
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian buster stable"
+
 sudo apt update
-sudo apt install docker-ce -y
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 # Installing nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
