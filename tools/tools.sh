@@ -41,7 +41,7 @@ cp settings.json ~/.config/Code/User/settings.json
 sudo apt update
 sudo apt install postgresql postgresql-contrib redis-server mongodb-server
 
-# Installing docker for deepin os
+# Installing docker
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-key fingerprint 0EBFCD88
 
