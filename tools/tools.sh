@@ -46,7 +46,7 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
 sudo apt-key fingerprint 0EBFCD88
 
 # Linux Mint 19.2 error: https://github.com/typora/typora-issues/issues/2065#issuecomment-526669791
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian bionic stable"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 
 sudo apt update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
