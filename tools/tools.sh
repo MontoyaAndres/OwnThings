@@ -52,5 +52,5 @@ cp settings.json ~/.config/Code/User/settings.json
 
 # Installing nodejs
 curl -sL https://deb.nodesource.com/setup_12.x | bash -
-apt install -y nodejs
+sudo apt install -y nodejs
 npm i eslint tslint typescript npx yarn now -g --unsafe-perm
