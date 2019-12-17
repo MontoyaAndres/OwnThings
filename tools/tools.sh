@@ -1,12 +1,13 @@
 # Main dependencies
-sudo apt install vlc apt-transport-https curl ca-certificates software-properties-common gnupg2 build-essential libssl-dev nmap python3 python3-pip python3-venv tor qbittorrent gparted k3d ssh -y
+sudo apt install vlc curl nmap python3 python3-pip python3-venv tor qbittorrent gparted ssh -y
 
 # Installing vscode
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo apt install apt-transport-https
 sudo apt update
-sudo apt install code -y
+sudo apt install code
 
 # Installing vscode extensions.
 ## Bracket Pair Colorizar
@@ -38,23 +39,18 @@ code --install-extension jpoissonnier.vscode-styled-components
 cp settings.json ~/.config/Code/User/settings.json
 
 # Installing databases
-sudo apt update
-sudo apt install postgresql postgresql-contrib redis-server mongodb-server
+# sudo apt update
+# sudo apt install postgresql postgresql-contrib redis-server mongodb-server
 
 # Installing docker
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo apt-key fingerprint 0EBFCD88
+# sudo apt install ca-certificates gnupg2 software-properties-common
+# curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+# sudo apt-key fingerprint 0EBFCD88
+# sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian buster stable"
+# sudo apt update
+# sudo apt-get install docker-ce docker-ce-cli containerd.io
 
-# Linux Mint 19.2 error: https://github.com/typora/typora-issues/issues/2065#issuecomment-526669791
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-
-sudo apt update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-
-# Installing nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-sleep 10
-nvm install 12
+# Installing nodejs
+curl -sL https://deb.nodesource.com/setup_12.x | bash -
+apt install -y nodejs
 npm i eslint tslint typescript npx yarn now -g --unsafe-perm
