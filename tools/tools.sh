@@ -12,10 +12,6 @@ sudo apt install code
 # Installing vscode extensions.
 ## Bracket Pair Colorizar
 code --install-extension CoenraadS.bracket-pair-colorizer
-## Docker
-code --install-extension ms-azuretools.vscode-docker
-## Editorconfig
-code --install-extension EditorConfig.EditorConfig
 ## Eslint
 code --install-extension dbaeumer.vscode-eslint
 ## GitLens
@@ -24,8 +20,6 @@ code --install-extension eamodio.gitlens
 code --install-extension kumar-harsh.graphql-for-vscode
 ## Prettier - Code formatter
 code --install-extension esbenp.prettier-vscode
-## Python
-code --install-extension ms-python.python
 ## TSLint
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 ## VSCode-icons
