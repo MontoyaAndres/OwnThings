@@ -8,12 +8,23 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/__pycache__": true,
+    "venv": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/env": true,
+    "**/venv": true
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
-    "**/node_modules/**": true
+    "**/node_modules/**": true,
+    "**/env/**": true,
+    "**/venv/**": true,
+    "env-*": true
   },
   "editor.tabSize": 2,
   "editor.detectIndentation": true,
@@ -22,7 +33,10 @@
   "explorer.confirmDragAndDrop": false,
   "workbench.editor.labelFormat": "short",
   "terminal.integrated.rendererType": "dom",
-  "emmet.excludeLanguages": ["typescript", "javascript"],
+  "emmet.excludeLanguages": [
+    "typescript",
+    "javascript"
+  ],
   "breadcrumbs.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "[markdown]": {
@@ -36,5 +50,6 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "telemetry.enableTelemetry": false
 }
