@@ -12,12 +12,8 @@ sudo apt install code
 # Installing vscode extensions.
 ## Bracket Pair Colorizar
 code --install-extension CoenraadS.bracket-pair-colorizer
-## Eslint
-code --install-extension dbaeumer.vscode-eslint
 ## GitLens
 code --install-extension eamodio.gitlens
-## GraphQL for vscode
-code --install-extension kumar-harsh.graphql-for-vscode
 ## Prettier - Code formatter
 code --install-extension esbenp.prettier-vscode
 ## TSLint
@@ -33,18 +29,9 @@ code --install-extension jpoissonnier.vscode-styled-components
 cp settings.json ~/.config/Code/User/settings.json
 
 # Installing databases
-# sudo apt update
 # sudo apt install postgresql postgresql-contrib redis-server mongodb-server
-
-# Installing docker
-# sudo apt install ca-certificates gnupg2 software-properties-common
-# curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
-# sudo apt-key fingerprint 0EBFCD88
-# sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian buster stable"
-# sudo apt update
-# sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 # Installing nodejs
 curl -sL https://deb.nodesource.com/setup_12.x | bash -
 sudo apt install -y nodejs
-sudo npm i eslint tslint typescript npx yarn now -g --unsafe-perm
+sudo npm i tslint typescript npx yarn now -g --unsafe-perm
