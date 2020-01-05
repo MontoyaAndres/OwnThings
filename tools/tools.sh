@@ -1,5 +1,5 @@
 # Main dependencies
-sudo apt install vlc curl nmap python3 python3-pip python3-venv tor qbittorrent gparted ssh -y
+sudo apt install vlc curl nmap qbittorrent gparted ssh -y
 
 # Installing vscode
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
