@@ -30,15 +30,9 @@
   "editor.detectIndentation": true,
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
-  "explorer.confirmDragAndDrop": false,
   "workbench.editor.labelFormat": "short",
   "terminal.integrated.rendererType": "dom",
-  "emmet.excludeLanguages": [
-    "typescript",
-    "javascript"
-  ],
   "breadcrumbs.enabled": true,
-  "typescript.updateImportsOnFileMove.enabled": "never",
   "[markdown]": {
     "editor.formatOnSave": false
   },
@@ -47,9 +41,6 @@
   },
   "[python]": {
     "editor.tabSize": 4
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "telemetry.enableTelemetry": false
 }
