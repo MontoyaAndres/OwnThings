@@ -20,6 +20,8 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 ## VSCode-icons
 code --install-extension vscode-icons-team.vscode-icons
+## AWS Toolkit
+code --install-extension amazonwebservices.aws-toolkit-vscode
 
 # Adding favorite config for vscode
 cp settings.json ~/.config/Code/User/settings.json
@@ -33,4 +35,4 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 sudo apt install node-pre-gyp build-essential gcc g++ make
 nvm install node
-npm i tslint typescript yarn vercel serverless @aws-amplify/cli -g --unsafe-perm
+npm i tslint typescript yarn vercel serverless @aws-amplify/cli -g
