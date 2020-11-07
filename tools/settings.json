@@ -1,6 +1,5 @@
 {
   "workbench.startupEditor": "newUntitledFile",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
   "workbench.iconTheme": "vscode-icons",
   "editor.formatOnSave": true,
   "files.exclude": {
@@ -34,14 +33,17 @@
   "workbench.editor.labelFormat": "short",
   "terminal.integrated.rendererType": "dom",
   "breadcrumbs.enabled": true,
-  "[markdown]": {
+  "[yaml]": {
     "editor.formatOnSave": false
   },
-  "[yaml]": {
+  "[json]": {
     "editor.formatOnSave": false
   },
   "[python]": {
     "editor.tabSize": 4
   },
-  "telemetry.enableTelemetry": false
+  "telemetry.enableTelemetry": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
