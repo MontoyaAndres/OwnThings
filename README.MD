@@ -31,6 +31,5 @@ Generate SSH and add it to my system.
 ```
 cd ~
 ssh-keygen -t rsa -b 4096 -C "andresmontoyafcb@gmail.com"
-eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ```
