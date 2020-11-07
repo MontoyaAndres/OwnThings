@@ -32,3 +32,9 @@ https://github.com/nvm-sh/nvm#install--update-script
 sudo apt install node-pre-gyp build-essential gcc g++ make
 nvm install node
 npm i tslint typescript yarn vercel serverless @aws-amplify/cli -g
+
+# Extensions
+https://extensions.gnome.org/extension/307/dash-to-dock/
+https://extensions.gnome.org/extension/690/easyscreencast/
+https://extensions.gnome.org/extension/1112/screenshot-tool/
+https://extensions.gnome.org/extension/104/netspeed/
