@@ -1,5 +1,6 @@
 # Main dependencies
 sudo apt install vlc curl nmap qbittorrent gparted ssh -y
+https://marcosmarti.org/como-eliminar-el-ruido-de-fondo-de-un-microfono-en-linux/
 
 # Installing vscode
 https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions
