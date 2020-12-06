@@ -34,3 +34,15 @@ ssh-keygen -t rsa -b 4096 -C "andresmontoyafcb@gmail.com"
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ```
+
+### Extensions
+
+- Bracket Pair Colorizer
+- GitLens
+- GraphQL
+- Prettier - Code formatter
+- Serverless IDE
+- TSLint
+- Velocity
+- vscode-icons
+- vscode-styled-components
