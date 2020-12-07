@@ -43,7 +43,5 @@
     "editor.tabSize": 4
   },
   "telemetry.enableTelemetry": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
