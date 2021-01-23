@@ -38,6 +38,8 @@ ssh-add ~/.ssh/id_rsa
 ### Extensions
 
 - Bracket Pair Colorizer
+- CloudFormation Linter
+- Docker
 - GitLens
 - GraphQL
 - Prettier - Code formatter
@@ -46,4 +48,3 @@ ssh-add ~/.ssh/id_rsa
 - Velocity
 - vscode-icons
 - vscode-styled-components
-- Docker
