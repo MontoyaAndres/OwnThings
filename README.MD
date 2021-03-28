@@ -47,3 +47,5 @@ ssh-add ~/.ssh/id_rsa
 - TSLint
 - Velocity
 - vscode-icons
+- YAML
+- 
