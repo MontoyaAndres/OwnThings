@@ -48,4 +48,3 @@ ssh-add ~/.ssh/id_rsa
 - Velocity
 - vscode-icons
 - YAML
-- 
