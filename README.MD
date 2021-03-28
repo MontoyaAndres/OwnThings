@@ -41,7 +41,6 @@ ssh-add ~/.ssh/id_rsa
 - Bracket Pair Colorizer
 - Docker
 - GitLens
-- Go
 - GraphQL
 - Prettier - Code formatter
 - Serverless IDE
