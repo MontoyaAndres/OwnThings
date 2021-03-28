@@ -37,14 +37,14 @@ ssh-add ~/.ssh/id_rsa
 
 ### Extensions
 
+- AWS Toolkit
 - Bracket Pair Colorizer
-- CloudFormation Linter
 - Docker
 - GitLens
+- Go
 - GraphQL
 - Prettier - Code formatter
 - Serverless IDE
 - TSLint
 - Velocity
 - vscode-icons
-- vscode-styled-components
