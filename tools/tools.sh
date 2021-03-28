@@ -11,9 +11,6 @@ cp settings.json ~/.config/Code/User/settings.json
 # Installing databases
 sudo apt install mariadb-server
 
-# Installing Golang
-sudo apt install golang-go
-
 # Installing nodejs
 https://github.com/nvm-sh/nvm#install--update-script
 sudo apt install node-pre-gyp build-essential gcc g++ make
