@@ -22,3 +22,4 @@ https://extensions.gnome.org/extension/307/dash-to-dock/
 https://extensions.gnome.org/extension/690/easyscreencast/
 https://extensions.gnome.org/extension/1112/screenshot-tool/
 https://extensions.gnome.org/extension/104/netspeed/
+https://extensions.gnome.org/extension/758/no-workspace-switcher-popup/
