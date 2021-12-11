@@ -20,6 +20,12 @@ chmod +x tools.sh
 ./tools.sh
 ```
 
+### Mac
+
+https://stackoverflow.com/questions/65487249/getting-a-warning-when-installing-homebrew-on-macos-big-sur-m1-chip
+https://tecadmin.net/install-nvm-macos-with-homebrew/
+https://vscode-docs.readthedocs.io/en/stable/editor/setup/
+
 ### Resources
 
 - [Boot USB](https://www.linuxadictos.com/17778.html)
