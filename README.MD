@@ -10,6 +10,7 @@ I've created a bash script for automazing the process to install the typical too
 git config --global user.email "andresmontoyafcb@gmail.com"
 git config --global user.name "MontoyaAndres"
 git config --global color.ui true
+git config --global core.editor "nano"
 ```
 
 Go to the **tools** forder and execute the script `tools`:
