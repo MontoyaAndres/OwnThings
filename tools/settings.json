@@ -31,7 +31,6 @@
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
   "workbench.editor.labelFormat": "short",
-  "terminal.integrated.rendererType": "dom",
   "breadcrumbs.enabled": true,
   "[yaml]": {
     "editor.formatOnSave": false
@@ -40,6 +39,9 @@
     "editor.formatOnSave": false
   },
   "[python]": {
+    "editor.tabSize": 4
+  },
+  "[solidity]": {
     "editor.tabSize": 4
   },
   "[javascript]": {
@@ -54,7 +56,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "telemetry.enableTelemetry": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "yaml.customTags": [
     "!And",
@@ -85,5 +86,9 @@
     "!Split",
     "!Split sequence"
   ],
-  "yaml.validate": false
+  "yaml.validate": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "yaml.schemas": {}
 }
