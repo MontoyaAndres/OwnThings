@@ -46,12 +46,14 @@ ssh-add ~/.ssh/id_rsa
 
 - AWS Toolkit
 - Bracket Pair Colorizer
-- Docker
 - GitLens
 - GraphQL
+- IAM Legend
 - Prettier - Code formatter
-- Serverless IDE
+- Serverless Console
+- Solidity
 - TSLint
 - Velocity
 - vscode-icons
+- vscode-styled-components
 - YAML
