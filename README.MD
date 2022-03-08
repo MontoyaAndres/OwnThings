@@ -49,7 +49,6 @@ ssh-add ~/.ssh/id_rsa
 - GraphQL
 - IAM Legend
 - Prettier - Code formatter
-- Serverless Console
 - Solidity
 - TSLint
 - Velocity
