@@ -45,7 +45,6 @@ ssh-add ~/.ssh/id_rsa
 ### Extensions
 
 - AWS Toolkit
-- Bracket Pair Colorizer
 - GitLens
 - GraphQL
 - IAM Legend
