@@ -1,6 +1,6 @@
 # OWNER SETTINGS
 
-### Automatic
+### General Operative System
 
 I've created a bash script for automazing the process to install the typical tools I use.
 
@@ -12,6 +12,8 @@ git config --global user.name "MontoyaAndres"
 git config --global color.ui true
 git config --global core.editor "nano"
 ```
+
+### Linux
 
 Go to the **tools** forder and execute the script `tools`:
 
@@ -25,6 +27,8 @@ chmod +x tools.sh
 https://stackoverflow.com/questions/65487249/getting-a-warning-when-installing-homebrew-on-macos-big-sur-m1-chip
 https://tecadmin.net/install-nvm-macos-with-homebrew/
 https://vscode-docs.readthedocs.io/en/stable/editor/setup/
+
+How to boot win10 using a Mac: https://www.freecodecamp.org/espanol/news/crear-usb-de-arranque-window-10/
 
 ### Resources
 
