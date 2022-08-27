@@ -48,14 +48,16 @@ ssh-add ~/.ssh/id_rsa
 
 ### Extensions
 
-- AWS Toolkit
 - GitLens
 - GraphQL
-- IAM Legend
 - Prettier - Code formatter
 - Solidity
-- TSLint
-- Velocity
 - vscode-icons
 - vscode-styled-components
 - YAML
+
+## Maybe:
+
+- AWS Toolkit
+- IAM Legend
+- Velocity
