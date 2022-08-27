@@ -48,6 +48,7 @@ ssh-add ~/.ssh/id_rsa
 
 ### Extensions
 
+- Docker
 - GitLens
 - GraphQL
 - Prettier - Code formatter
