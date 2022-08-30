@@ -48,17 +48,8 @@ ssh-add ~/.ssh/id_rsa
 
 ### Extensions
 
-- Docker
-- GitLens
 - GraphQL
 - Prettier - Code formatter
 - Solidity
 - vscode-icons
 - vscode-styled-components
-- YAML
-
-#### Maybe:
-
-- AWS Toolkit
-- IAM Legend
-- Velocity
