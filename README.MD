@@ -48,10 +48,7 @@ ssh-add ~/.ssh/id_rsa
 
 ### Extensions
 
-- GraphQL
 - Prettier - Code formatter
 - Prisma
-- Python
-- Solidity
 - vscode-icons
 - vscode-styled-components
